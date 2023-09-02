@@ -1,0 +1,55 @@
+/* Mobile styles */
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 32px;
+  }
+  
+  .contact-info, .social-icons {
+    margin-top: 10px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10 px; /* Gap between button rows */
+  margin-top: 20px;
+}
+
+.button-row {
+  display: flex;
+  gap: 10px; /* Gap between buttons in the same row */
+}
+
+
+.button {
+  padding: 6px 12px;
+  background-color: #008b8b;
+  color: #f8f8ff;
+  font-size: 16px; /* Adjust the font size as desired */
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #2980b9;
+}
+  
+  
+footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 8px;
+            font-size: 10px; /* Adjust the font size as needed */
+        }
+
+        footer p {
+            margin: 0; /* Remove default margin */
+            padding-bottom: 5px; /* Add padding for the line */
+            border-bottom: 3px solid white; /* Add a thicker bottom border */
+        }
+
+}
