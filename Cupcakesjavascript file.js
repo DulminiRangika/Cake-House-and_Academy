@@ -5,7 +5,7 @@ const cakes = [
 	{ title: "Coffee Cupcake", price: "Rs.130/-", image: "Coffee Cupcake.jpg"},
 	{ title: "Marble Cupcake", price: "Rs.120/-", image: "Marble Cupcake.jpg"},
 	{ title: "Red Velvet Cupcake", price: "Rs.150/-", image: "Red Velvet Cupcake.jpg"},
-	{ title: "Zeebra Cupcake", price: "Rs.120/-", image: "Zeebra Cupcake.jpg"},
+	{ title: "Zeebra Cupcake", price: "Rs.120/-", image: "Zeebra Cupcake.Jpg"},
 	{ title: "Fruit Cupcakes", price: "Rs.150/-", image: "Fruit Cupcakes.jpg"},
 	{ title: "Muffins", price: "Rs.70/-", image: "Muffins.jpg"},
     // Add more cake items here
