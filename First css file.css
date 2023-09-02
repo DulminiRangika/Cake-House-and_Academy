@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('background-image.jpg'); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(3px); /* Add backdrop filter to blur the background */
+}
+
+footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 14px; /* Adjust the font size as needed */
+        }
+
+        footer p {
+            margin: 0; /* Remove default margin */
+            padding-bottom: 5px; /* Add padding for the line */
+            border-bottom: 3px solid white; /* Add a thicker bottom border */
+        }
+
+h1 {
+  font-family: 'Georgia', serif;
+  font-size: 3rem;
+  color: #fcc200;
+  background-color: #080808; /* Add a background color to highlight */
+  padding: 10px 20px; /* Add padding to create some space around the text */
+  text-align: center;
+  margin-top: 0; 
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-icon img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+/* Your existing styles here */
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Gap between the social icons */
+  margin-top: 20px;
+}
+
+.social-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.social-icon img {
+  width: 30px;
+  height: 30px;
+}
+
+.social-icon span {
+  color: yellow;
+  margin-top: 5px;
+}
+
+.social-icon p {
+  color: yellow;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+/* Add a gap element between social icons */
+.gap {
+  width: 50px;
+}
+
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /* Gap between button rows */
+  margin-top: 20px;
+}
+
+.button-row {
+  display: flex;
+  gap: 20px; /* Gap between buttons in the same row */
+}
+
+.button {
+  padding: 20px 30px;
+  background-color: #008b8b;
+  color: #f8f8ff;
+  font-size: 18px; /* Adjust the font size as desired */
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #2980b9;
+}
+
+.contact-info {
+  text-align: center;
+  color: #e0ffff;
+  margin-top: 0px;
+}
+
